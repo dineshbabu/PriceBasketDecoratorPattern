@@ -6,9 +6,9 @@ public abstract class GroceryItem {
 
 	String itemDescription = "";
 	String discountDescription = "";
-	static int soupCount = 0;
+	public static int soupCount = 0;
 
-	String getItemDescription(){
+	public String getItemDescription(){
 		return itemDescription;
 	}
 
@@ -24,5 +24,5 @@ public abstract class GroceryItem {
 		this.soupCount = soupCount;
 	}
 
-	abstract double getCost();
+	public abstract double getCost();
 }

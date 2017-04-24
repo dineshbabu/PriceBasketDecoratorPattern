@@ -6,7 +6,7 @@ public class GroceryItemImpl extends GroceryItem {
 	}
 
 	@Override
-	double getCost() {
+	public double getCost() {
 		return 0;
 	}
 

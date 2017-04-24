@@ -1,4 +1,6 @@
-package pricebasket;
+package pricebasket.costdecorator;
+
+import pricebasket.GroceryItem;
 
 public class MilkDecoratorImpl extends GroceryItemDecorator {
 
@@ -15,7 +17,7 @@ public class MilkDecoratorImpl extends GroceryItemDecorator {
 	}
 
 	@Override
-	double getCost() {
+	public double getCost() {
 		return COST_OF_MILK + groceryItem.getCost();
 	}
 

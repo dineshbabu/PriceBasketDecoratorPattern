@@ -45,9 +45,8 @@ IntelliJ IDE
 
 Prerequisite : Java 8 installed
 
-1) Get the source code from git https://github.com/dineshbabu/PriceBasketApp
-2) Use intelliJ Java IDE ( or any other ) and add the project to the IDE to view source code
-3) To run the application, run PriceBasket.java
+1) Use intelliJ Java IDE ( or any other ) and add the project to the IDE to view source code
+2) To run the application, run PriceBasket.java
 
 Eg:
 If you run the following command,
@@ -61,8 +60,8 @@ Items in the basket:  Bread |  Soup |  Soup |  Milk |  Milk |  Apples |  Apples 
 
 SubTotal: £6.7
 
-Bread 50.0% off : £0.4
-Apples 10.0% off : £0.1
-Apples 10.0% off : £0.1
+Bread 50.0% off : -£0.4
+Apples 10.0% off : -£0.1
+Apples 10.0% off : -£0.1
 
 Total price: £6.1

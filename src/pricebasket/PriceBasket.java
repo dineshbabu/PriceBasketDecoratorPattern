@@ -1,5 +1,12 @@
 package pricebasket;
 
+import pricebasket.discountdecorator.ApplesDiscountDecoratorImpl;
+import pricebasket.discountdecorator.BreadDiscountDecoratorImpl;
+import pricebasket.costdecorator.ApplesDecoratorImpl;
+import pricebasket.costdecorator.BreadDecoratorImpl;
+import pricebasket.costdecorator.MilkDecoratorImpl;
+import pricebasket.costdecorator.SoupDecoratorImpl;
+
 import java.text.DecimalFormat;
 import java.util.Arrays;
 
