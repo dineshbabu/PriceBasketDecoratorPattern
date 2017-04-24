@@ -12,33 +12,33 @@
 
 This app lets you add shopping items to basket and to print out the total cost including discounts applied.
 
-Allowed items are
-  Soup – 65p per tin
-  Bread – 80p per loaf
-  Milk – £1.30 per bottle
-  Apples – £1.00 per bag
+Allowed items are  
+  Soup – 65p per tin  
+  Bread – 80p per loaf  
+  Milk – £1.30 per bottle  
+  Apples – £1.00 per bag  
 
-Current special offers:
-  Apples have a 10% discount off their normal price this week
-  Buy 2 tins of soup and get a loaf of bread for half price
+Current special offers:  
+  Apples have a 10% discount off their normal price this week  
+  Buy 2 tins of soup and get a loaf of bread for half price  
 
-Expected result:
-If you run , PriceBasket Apples Milk Bread
-result should be
+Expected result:  
+If you run , PriceBasket Apples Milk Bread  
+result should be  
 
-Subtotal: £3.10
-Apples 10% off: -10p
-Total: £3.00
+Subtotal: £3.10  
+Apples 10% off: -10p  
+Total: £3.00  
 
-## Technologies used
+## Technologies used  
 
-Java 8
-Decorator design pattern is used to implement the solution
+Java 8  
+Decorator design pattern is used to implement the solution  
 
-## Development environment
-
-Windows 7
-IntelliJ IDE
+## Development environment  
+ 
+Windows 7  
+IntelliJ IDE  
 
 
 ## Steps to build the application
@@ -52,16 +52,16 @@ Eg:
 If you run the following command,
 PriceBasket Apples Apples Milk Milk Soup Soup Bread NonExistentItem
 
-the result will be printed to the console as shown below:
+the result will be printed to the console as shown below:  
 
-Item "NonExistentItem" is not available
+Item "NonExistentItem" is not available  
 
-Items in the basket:  Bread |  Soup |  Soup |  Milk |  Milk |  Apples |  Apples |
+Items in the basket:  Bread |  Soup |  Soup |  Milk |  Milk |  Apples |  Apples |  
 
-SubTotal: £6.7
-
-Bread 50.0% off : -£0.4
-Apples 10.0% off : -£0.1
-Apples 10.0% off : -£0.1
+SubTotal: £6.7  
+  
+Bread 50.0% off : -£0.4  
+Apples 10.0% off : -£0.1  
+Apples 10.0% off : -£0.1  
 
 Total price: £6.1
